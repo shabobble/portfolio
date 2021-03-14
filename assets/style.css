@@ -1,0 +1,73 @@
+body {
+    /* display: flex;    */
+}
+
+header {
+
+    background-color: burlywood;
+    padding: 20px;
+    color: #5F8AD3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+header h1 {
+
+    display: inline-block;
+    font-size: 48px;
+    
+}
+
+header nav {
+    
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+header nav ul {
+    list-style: none;
+       
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+a{
+
+    color: #5F8AD3;
+    text-decoration: none;
+}
+
+.background {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/barharbor.jpg");
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.background img {
+   border-radius: 75px;
+   background-color: none;
+   height: 200px;
+   position: relative;
+   top: 100px;
+   left: 900px;
+}
+
+main h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    text-decoration: underline;
+
+}
