@@ -152,8 +152,21 @@ figure {
 /* Not working */
 figcaption:hover {
     opacity: 1.0;
+
 }
 
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact ul li {
+    display: inline;
+}
 footer {
     text-align: center;
 }
@@ -177,5 +190,5 @@ footer h4::after {
 }
 
 @media screen and (max-width: 480px) {
-    
+
 }
