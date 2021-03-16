@@ -35,8 +35,7 @@ header nav {
 
 header nav ul {
     list-style: none;
-    
-       
+
 }
 
 header nav ul li {
@@ -70,10 +69,11 @@ a{
    border-radius: 75px;
    background-color: none;
    position: absolute;
-   width: 100px;
+   width: 150px;
+   height: 200px;
    bottom: 0px;
    left: 50%;
-   margin-left: -50px;
+   margin-left: -75px;
 }
 
 h2 {
@@ -112,14 +112,19 @@ article h2 {
 .works-wrapper a,
 .works-wrapper a:visited {
     color: inherit;
-    background-color: crimson;
+    
 }
 
+figure {
+    margin: 0;
+    
+}
 .works-wrapper .work-example {
     flex: 0 0 calc(50% - 20px);
-    border: 5px solid red;
+    border: 5px solid burlywood;
     margin: 0 0 20px 0;
     position: relative;
+    
 }
 
 
@@ -130,13 +135,23 @@ article h2 {
 .works-wrapper .work-example img {
     display: block;
     width: 100%;
-    object-fit: fill;
+    
 }
 
 .works-wrapper .work-example figcaption {
     position: absolute;
     left: 0;
-    bottom: 20px;
+    top: 10%;
+    background-color: #3edaac;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: .75;
+}
+
+/* Not working */
+figcaption:hover {
+    opacity: 1.0;
 }
 
 footer {
@@ -155,7 +170,12 @@ footer h4::after {
 
 @media screen and (max-width: 768px) {
 
-    header {
+    header,
+    .works-wrapper {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 480px) {
+    
 }
