@@ -212,13 +212,13 @@ footer h4::after {
     content: " \00A9 2021";
 }
 
-@media screen and (max-width: 1720px) {
+/* @media screen and (max-width: 1720px) {
     header nav {
         margin-left: 500px;
-    }
+    } */
 
 
-}
+
 
 @media screen and (max-width: 970px) {
     .contact ul, .works-wrapper {
@@ -229,6 +229,7 @@ footer h4::after {
 
     header, .contact, header nav ul, .content-section {
         flex-direction: column;
+        
     }
     .works-wrapper .work-example {
         margin: 0 0 0 0;
