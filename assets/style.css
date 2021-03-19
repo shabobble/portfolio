@@ -21,7 +21,6 @@ header {
 header h1 {
 
     font-size: 48px;
-
 }
 
 header nav {
@@ -94,7 +93,7 @@ article h2 {
     width: 160px;
     align-items: center;
     border-style: none double none none;
-    border-color: purple;
+    border-color: #8bd35f;
 
 }
 
@@ -215,12 +214,6 @@ footer h4::after {
     content: " \00A9 2021";
 }
 
-/* @media screen and (max-width: 1720px) {
-    header nav {
-        margin-left: 500px;
-    } */
-
-
 @media screen and (max-width: 1205px) {
     header {
         flex-direction: column;
@@ -243,6 +236,7 @@ footer h4::after {
         flex-direction: column;
         
     }
+
     .works-wrapper .work-example {
         margin: 0 0 0 0;
         flex-basis: 200px;
