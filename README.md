@@ -32,9 +32,9 @@ Link to deployed application:
 
 ## Screenshots
 
-![Top of page]()
+![Top of page](/images/fullscreen.jpg)
 
-![Bottom of page](/assets/images/bottom.jpg)
+![Bottom of page](/images/ResponsiveScreen.jpg)
 
 ## Installation
 
